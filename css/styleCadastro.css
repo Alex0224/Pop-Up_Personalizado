@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body{
+    background-color: #1b2129;
+    background-image: none;
+    width: 99.9vw;
+}
+
+.container-cadastre-se{
+    width: 99.9vw;
+}
+
+.container-login{
+    width: 30vw;
+    height: 40vw;
+    background-color: #6c6c72;
+    margin-left: auto;
+    margin-top: 2vw;
+    margin-right: auto;
+    box-shadow: 5px 5px 20px #000000;
+    border-radius: 8px;
+    padding: .4vw;
+}
+
+.container-form{
+    width: 29vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 39vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form input{
+    display: block;
+    width: 25vw;
+    height: 2vw;
+    margin-bottom: .5vw;
+    margin-top: .8vw;
+    border: none;
+    border-radius: 6px;
+    text-indent: 1vw;
+    font-size: 1vw;
+    font-weight: 200;
+    margin-left: 1vw;
+}
+
+.container-form select{
+    display: block;
+}
+
+.container-form label{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: .7vw;
+}
+
+input[type="checkbox"]{
+    width: .7vw;
+    height: .7vw;
+    display: inline-block;
+    margin-right: .3vw;
+}
+
+.container-form p{
+    display: inline-flex;
+    color: #ffffff;
+    font-size: .8vw;
+}
+
+#InpuName {
+    margin-top: 1vw;
+}
+
+input[type="number"]{
+    width: 8vw;
+    text-indent: .2vw;
+    font-size: .8vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Nascimento{
+    font-size: 1.3vw;
+}
+
+.caixaNascimento{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.caixaTime{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+#TimeCoracao{
+    font-size: 1.3vw;
+}
+
+#team_id{
+    width: 8vw;
+    text-indent: .4vw;
+    font-size: .8vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2vw;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: .8vw;
+    margin-top: .8vw;
+}
+
+.caixaCheckbox{
+    margin-top: .5vw;
+    margin-bottom: .6vw;
+}
+
+#EsportesInteresses{
+    display: block;
+    text-align: center;
+}
+
+.checkboxs{
+    width: 70%;
+    margin-top: 1.3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-form button{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vw;
+    border-radius: 18px;
+    font-size: 1.6vw;
+    font-weight: 400;
+    margin-top: 1vw;
+    border: none;
+    color: #ffffff;
+    background-color: #2abe05;
+    cursor: pointer;
+}
+
+.container-form button:hover{
+    background-color: #229705;
+    transition: ease-in-out .3s;
+}
+
+input:focus{
+    outline: none;
+}
+
+select:focus{
+    outline: none;
+}

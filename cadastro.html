@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleCadastro.css">
+    <link rel="shortcut icon" href="images/logo-header.png" type="image/x-icon">
+    <title>Cadastre-se Aqui</title>
+</head>
+<body>
+    <div class="container-cadastre-se">
+        <header class="cabecalho">
+            <div class="logotipo">
+                <p>Clube Esporte Nacional</p>
+                <div class="ImageLogo">
+                    <img src="images/logo-header.png" alt="Logotipo do clube nacional de esportes.">
+                </div>
+                <nav class="menuOpcoes">
+                    <ul class="listaMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cadastro.html">Cadastrar</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container-login">
+            <form class="container-form" action="">
+                <label id="InpuName" for="InputName">Nome: <input type="text" name="InputName" id="InputName" placeholder="Digite seu nome aqui"></label>
+                <label for="InputEmail">E-mail: <input type="email" name="InputEmail" id="InputEmail" placeholder="exemplo@exe.com"></label>
+                <label for="InputCPF">CPF: <input type="text" name="InputCPF" id="InputCPF" placeholder="Digite apenas números"></label>
+                <label for="InputSenha">Senha: <input type="password" name="InputSenha" id="InputSenha"></label>
+
+                <div class="caixaEsquerda">
+                    <div class="caixaNascimento">
+                        <label id="Nascimento" for="InputNascimento">Ano de Nascimento: <input type="number" name="InputNascimento" id="InputNascimento"></label>
+                    </div>
+                    <div class="caixaTime">
+                        <label id="TimeCoracao" for="InputTimeCoracao"> Time do coração:
+                            <select id="team_id">
+                                <option disabled selected>Selecione</option>
+                                <option value="1">Corinthians</option>
+                                <option value="2">Palmeiras</option>
+                                <option value="3">São Paulo</option>
+                                <option value="4">Santos</option>
+                             </select>
+                        </label>
+                    </div>
+                </div>
+                    <div class="caixaCheckbox">
+                        <label id="EsportesInteresses" for="InputEsporteInteresse">Esportes de interesse: </label>
+                            <div class="checkboxs">
+                                <input type="checkbox" class="sport" id="1"><p>Futebol</p>
+                                <input type="checkbox" class="sport" id="2"><p>Vôlei</p>
+                                <input type="checkbox" class="sport" id="3"><p>Basquete</p>
+                                <input type="checkbox" class="sport" id="4"><p>Futsal</p>
+                                <input type="checkbox" class="sport" id="5"><p>Automobilismo</p>
+                                <input type="checkbox" class="sport" id="6"><p>Artes Marciais</p>
+                                <input type="checkbox" class="sport" id="7"><p>Natação</p>
+                            </div>
+                    </div>
+                <button type="button" onclick="verificarForm()">Enviar</button>
+            </form>
+        </main>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #6c6c72;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+}
+
+body{
+    background-image: url('../_images/background-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    background-position-y: -2vw;
+}
+
+.cabecalho{
+    background-color: #6c6c72;
+    display: inline-block;
+    width: 100%;
+    height: 6vw;
+}
+
+.logotipo p{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 1.8vw;
+    position: relative;
+    top: -1.8vw;
+    margin-right: 24vw;
+    margin-left: 1vw;
+    color: #ffffff;
+}
+
+.ImageLogo{
+    width: 6vw;
+    height: 6vw;
+    display: inline-block;
+    margin-right: 24vw;
+    position: relative;
+    top: .3vw;
+}
+
+.ImageLogo img{
+    width: 100%;
+}
+
+.menuOpcoes{
+    display: inline-block;
+    position: relative;
+    top: -2vw;
+}
+
+.listaMenu li{
+    display: inline;
+    background-color: #1b2129;
+    border-radius: 6px;
+    padding: .6vw;
+    margin: .4vw;
+}
+
+.listaMenu li:hover{
+    padding: .7vw;
+    transition: ease .5s;
+}
+
+.listaMenu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+
+.container-main {
+    background-color: #cccccc;
+    text-align: center;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modal-content{
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    position: fixed;
+}
+
+.modal{
+    background-color: #1b2129;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 30vw;
+    height: 22vw;
+    padding: 1rem;
+    border: 4px solid #cccccc;
+}
+
+.modal h1{
+    font-weight: 600;
+    color: #cccccc;
+    text-align: center;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.modal hr{
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: #cccccc;
+    margin-bottom: 1.8vw;
+}
+
+.modal p{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+.botoes{
+    width: 16vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#btnSim{
+    margin-bottom: 2.4rem;
+    width: 60%;
+    font-size: 1.4vw;
+    padding: .5vw;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b2129;
+    border: 3px solid rgb(30, 143, 27);
+    border-radius: 5px;
+    color: rgb(30, 143, 27);
+    cursor: pointer;
+}
+
+#btnSim:hover{
+    border: 3px solid #000000;
+    background-color: rgb(30, 143, 27);
+    color: #000000;
+    transition: ease-in-out .3s;
+}
+
+#btnNao{
+    width: 60%;
+    font-size: 1.4vw;
+    padding: .5vw;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b2129;
+    border: 3px solid rgb(160, 5, 5);
+    border-radius: 5px;
+    color: rgb(160, 5, 5);
+    cursor: pointer;
+}
+
+#btnNao:hover{
+    border: 3px solid #000000;
+    background-color: rgb(160, 5, 5);
+    color: #000000;
+    transition: ease-in-out .3s;
+}
+
+
